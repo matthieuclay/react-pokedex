@@ -4,7 +4,7 @@ import PokemonThumbnail from "./components/PokemonThumbnail";
 function App() {
   const [allPokemons, setAllPokemons] = useState([]);
   const [loadMore, setLoadMore] = useState(
-    "https://pokeapi.co/api/v2/pokemon?limit=151"
+    "https://pokeapi.co/api/v2/pokemon?limit=24"
   );
 
   const getAllPokemons = async () => {
